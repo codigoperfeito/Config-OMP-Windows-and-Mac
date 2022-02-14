@@ -8,7 +8,7 @@
       "alignment": "left",
       "segments": [
         {
-         "type": "shell",
+          "type": "shell",
           "style": "diamond",
           "leading_diamond": "╭─",
           "trailing_diamond": "",
@@ -124,4 +124,5 @@
       ]
     }
   ]
-} 
+}
+
