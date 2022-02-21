@@ -56,7 +56,7 @@
             "branch_icon": "\ue725 ",
             "fetch_status": true,
             "fetch_upstream_icon": true,
-            "template": "{{ .HEAD }} {{ if .Working.Changed }}{{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}<#ef5350> \uF046 {{ .Staging.String }}</>{{ end }}"
+            "template": "{{ .HEAD }} "
           }
         }
       ]
@@ -67,17 +67,12 @@
       "segments": [
         {
           "type": "node",
-          "style": "diamond",
-          "leading_diamond": " \uE0B6",
-          "trailing_diamond": "\uE0B4",
-          "foreground": "#3C873A",
-          "background": "#303030",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#6CA35E",
           "properties": {
-            "prefix": "\uE718 ",
-            "postfix": "",
-            "display_package_manager": true,
-            "yarn_icon": " <#348cba></>",
-            "npm_icon": " <#cc3a3a></> "
+            "template": " \uE718 {{ .Full }} "
           }
         },
         {

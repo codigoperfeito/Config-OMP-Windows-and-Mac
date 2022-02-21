@@ -47,9 +47,8 @@
           "powerline_symbol": "\ue0b0",
           "properties": {
             "branch_icon": "\ue725 ",
-            "fetch_status": true,
             "fetch_upstream_icon": true,
-            "template": " {{ .HEAD }} {{ if .Working.Changed }}{{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}<#ef5350> \uf046 {{ .Staging.String }}</>{{ end }} "
+            "template": " {{ .HEAD }} "
           },
           "style": "powerline",
           "type": "git"
@@ -61,31 +60,27 @@
       "alignment": "right",
       "segments": [
         {
-          "background": "#303030",
-          "foreground": "#3C873A",
-          "leading_diamond": " \ue0b6",
+          "foreground": "#ffffff",
+          "background": "#000000",
+          "leading_diamond": "\ue0b2",
           "properties": {
-            "fetch_package_manager": true,
-            "npm_icon": " <#cc3a3a>\ue5fa</> ",
-            "template": "\ue718 {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }}",
-            "yarn_icon": " <#348cba>\uf61a</>"
+            "template": " RAM:{{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)|float64) 1000000000.0) }}/{{ (div .PhysicalTotalMemory 1000000000.0) }}GB<#0077c2> \ue0b2</>"
           },
           "style": "diamond",
-          "trailing_diamond": "\ue0b4",
-          "type": "node"
+          "type": "sysinfo"
         },
         {
-          "background": "#40c4ff",
+          "background": "#0077c2",
           "foreground": "#ffffff",
           "invert_powerline": true,
-          "leading_diamond": " \ue0b6",
           "properties": {
-            "template": " \uf5ef {{ .CurrentDate | date .Format }} "
+            "template": " \uf5ef {{ .CurrentDate | date .Format }} ",
+            "time_format": "_2,15:04"
           },
           "style": "diamond",
           "trailing_diamond": "\ue0b4",
           "type": "time"
-        }
+        }        
       ],
       "type": "prompt"
     },
