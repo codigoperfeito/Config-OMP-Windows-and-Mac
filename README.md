@@ -29,7 +29,7 @@ você precisa procurar (Ctrl F) *"schemes"* é onde estão os temas, após qualq
 *(PT/BR)*<br>
 - Para começar é necessário ter instaldo o [Scoop](https://scoop.sh/)
 
-`iwr -userb get.scoop.sh | iex`
+`iwr -useb get.scoop.sh | iex`
 
 - Apos instalar o scoop é necessário instalar curl, sudo & gcc  <br>
 
@@ -85,9 +85,9 @@ Entre nas suas respectivas pastas onde vocês escolheram para adicionar seus per
 
 dentro do arquivo escreva 
 
-*. env:USERPROFILE\pastaquevoceescolheu\user_profile.ps1*
+*. $env:USERPROFILE\pastaquevoceescolheu\user_profile.ps1*
 
-`. env:USERPROFILE\.config\powershell\user_profile.ps1`
+`. $env:USERPROFILE\.config\powershell\user_profile.ps1`
 
 ***Reinicie seu WT e seja feliz***
 
