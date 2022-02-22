@@ -104,5 +104,5 @@ dentro do arquivo escreva
  
  - Takuya Matsuyama ([craftzdog](https://scoop.sh/))
  - Windows Terminal Theme 
- - Oh-My-Posh ([OMP](https://ohmyposh.dev/docs/)
+ - Oh-My-Posh ([OMP](https://ohmyposh.dev/docs/))
  - Docs Windows Modules ([Docs](https://docs.microsoft.com/en-us/powershell/scripting/developer/module/installing-a-powershell-module?view=powershell-7.2))
