@@ -106,4 +106,4 @@ dentro do arquivo escreva
  - Windows Terminal Theme 
  - Oh-My-Posh ([OMP](https://ohmyposh.dev/docs/))
  - Docs Windows Modules ([Docs](https://docs.microsoft.com/en-us/powershell/scripting/developer/module/installing-a-powershell-module?view=powershell-7.2))
- - Link do Video tutorial ([Clique Aqui](https://www.youtube.com/watch?v=NGAiEHS1a7w))
+ - Link do Video tutorial ([Clique Aqui](https://youtu.be/-KylORyaw1g))
