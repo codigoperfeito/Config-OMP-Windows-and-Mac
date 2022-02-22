@@ -52,7 +52,7 @@ você precisa procurar (Ctrl F) *"schemes"* é onde estão os temas, após qualq
 - Para começarmos devemos ter em mente a localização de todos os nossos arquivos de configuração <br>
 - existem dois arquivos que serão importantes para a configuração e manipulação de atalhos no PS
 - esses arquivos serão o ***user_profile.ps1***(importante para importar arquivos e criar atalhos)
-- e ***user_omp.json*** (importante para criação do seu proprio thema)
+- e ***user_omp.json*** (importante para criação do seu proprio thema) ou você só precisa clonar o meu
 
 *eu particularmente prefiro deixar em ~/.config/powershell/ pois acho mais organização referencia do Takuya*
 
@@ -78,6 +78,16 @@ Entre nas suas respectivas pastas onde vocês escolheram para adicionar seus per
 `git clone "https://github.com/codigoperfeito/MyConfigPowershell"`
 
 - Apos clonar os arquivos basta dar um CD .\MyConfigPowershell e copiar os arquivos para a pasta do perfil
+
+- Agora você só precisa redirecionar para que sempre que abrir o WT ele selecione o perfil da pasta clonada e já configurada
+
+`nvim $PROFILE.CurrentUserCurrentHost`
+
+dentro do arquivo escreva 
+
+*. env:USERPROFILE\pastaquevoceescolheu\user_profile.ps1*
+
+`. env:USERPROFILE\.config\powershell\user_profile.ps1`
 
 ***Reinicie seu WT e seja feliz***
 
