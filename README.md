@@ -102,7 +102,7 @@ dentro do arquivo escreva
  
  ### Creditos 
  
- - Takuya Matsuyama ([craftzdog](https://scoop.sh/))
+ - Takuya Matsuyama ([craftzdog](https://github.com/craftzdog))
  - Windows Terminal Theme 
  - Oh-My-Posh ([OMP](https://ohmyposh.dev/docs/))
  - Docs Windows Modules ([Docs](https://docs.microsoft.com/en-us/powershell/scripting/developer/module/installing-a-powershell-module?view=powershell-7.2))
