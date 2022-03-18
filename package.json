@@ -1,0 +1,9 @@
+{
+  "name": "test",
+  "version": "10.0",
+  "description": "nenhuma",
+  "main": "index.js",
+  "repository": "https://github.com/codigoperfeito/MyConfigPowershell",
+  "author": "Wesley Almeida <obilhao@gmail.com>",
+  "license": "MIT"
+}
