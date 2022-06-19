@@ -75,7 +75,7 @@ Apos a criação dos arquivos vamos começar...
 
 Entre nas suas respectivas pastas onde vocês escolheram para adicionar seus perfis e deem um ***git clone***
 
-`git clone "https://github.com/codigoperfeito/MyConfigPowershell"`
+`git clone "https://github.com/codigoperfeito/Config-OMP-Windows-and-Mac"`
 
 - Apos clonar os arquivos basta dar um CD .\MyConfigPowershell e copiar os arquivos para a pasta do perfil
 
