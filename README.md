@@ -63,9 +63,11 @@ Apos a criação dos arquivos vamos começar...
 - Os modulos que serão instalados serão oh-my-posh, posh-git, Terminal-Icons, PSFzf, PSReadLine e z
 
 `install-module oh-my-posh -scope CurrentUser -Force` <br>
+`scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json` <br>
 `install-module posh-git -scope CurrentUser -Force` <br>
 `install-module -name z -Force`<br>
 `install-module -name PSFzf -Scope CurrentUser -Force`<br>
+`scoop install fzf`<br>
 `install-module -name Terminal-Icons -Repository PSGallery -Force`<br>
 `Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck`<br>
 
