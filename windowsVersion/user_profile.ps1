@@ -221,7 +221,6 @@ function prompt {
 [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding
 $env:OSH_GIT_ENABLED = $true
 Import-Module posh-git
-Import-Module oh-my-posh
 
 $omp_config = Join-Path $PSScriptRoot ".\wesley.omp.json"
 oh-my-posh --init --shell pwsh --config $omp_config | Invoke-Expression
