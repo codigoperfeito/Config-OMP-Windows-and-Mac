@@ -29,7 +29,7 @@ você precisa procurar (Ctrl F) *"schemes"* é onde estão os temas, após qualq
 *(PT/BR)*<br>
 - Para começar é necessário ter instaldo o [Scoop](https://scoop.sh/)
 
-`iwr -useb get.scoop.sh | iex`
+`irm get.scoop.sh | iex`
 
 - Apos instalar o scoop é necessário instalar curl, sudo & gcc  <br>
 
@@ -65,11 +65,11 @@ Apos a criação dos arquivos vamos começar...
 `install-module oh-my-posh -scope CurrentUser -Force` <br>
 `scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json` <br>
 `install-module posh-git -scope CurrentUser -Force` <br>
-`install-module -name z -Force`<br>
+`Install-Module -Name z -AllowClobber`<br>
 `install-module -name PSFzf -Scope CurrentUser -Force`<br>
 `scoop install fzf`<br>
 `install-module -name Terminal-Icons -Repository PSGallery -Force`<br>
-`Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck`<br>
+`Install-Module -Name PSReadLine -AllowClobber -Force`<br>
 
 ### 3º Clonando o Git📝 
 
@@ -87,7 +87,7 @@ Entre nas suas respectivas pastas onde vocês escolheram para adicionar seus per
 
 dentro do arquivo escreva 
 
-*. $env:USERPROFILE\pastaquevoceescolheu\user_profile.ps1*
+*. $env:USERPROFILE\"PASTAQUEVOCÊESCOLHEU"\user_profile.ps1*
 
 `. $env:USERPROFILE\.config\powershell\user_profile.ps1`
 
